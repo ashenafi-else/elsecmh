@@ -1,0 +1,37 @@
+[
+  {
+    "model": "elsecmh.colorgroup",
+    "pk": "af126741-4294-40d0-9b88-48498bb6f0c6",
+    "fields": {
+      "name": "test_color_group",
+      "depth": 1,
+      "updated": "2018-03-05 15:27:26.526088+00:00",
+      "path": "0001",
+      "numchild": 0
+    }
+  },
+  {
+    "model": "elsecmh.color",
+    "pk": "e29dcd47-6965-4d01-a208-7a0418716c90",
+    "fields": {
+      "updated": "2018-10-17 14:27:26.526088+00:00",
+      "name": "test color 1",
+      "color_group": "af126741-4294-40d0-9b88-48498bb6f0c6",
+      "color_space": "RGB",
+      "value": "FFFFFF",
+      "description": "test color"
+    }
+  },
+  {
+    "model": "elsecmh.color",
+    "pk": "642bbbe6-d21b-11e8-a8d5-f2801f1b9fe3",
+    "fields": {
+      "updated": "2018-10-17 14:27:26.526088+00:00",
+      "name": "test color 2",
+      "color_group": "af126741-4294-40d0-9b88-48498bb6f0c6",
+      "color_space": "CMYK",
+      "value": "0%, 0%, 0%, 9%",
+      "description": "test color"
+    }
+  }
+]

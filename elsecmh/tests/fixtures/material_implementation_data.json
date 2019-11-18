@@ -1,0 +1,83 @@
+[
+  {
+    "model": "elsecmh.material",
+    "pk": "642bbbe6-d21b-11e8-a8d5-f2801f1b9fa0",
+    "fields": {
+      "name": "mat_nappa",
+      "updated": "2018-10-17 14:27:26.526088+00:00",
+      "material_group": "642bbbe6-d21b-11e8-a8d5-f2801f1b9fd0"
+    }
+  },
+  {
+    "model": "elsecmh.materialrevision",
+    "pk": "642bbbe6-d21b-11e8-a8d5-f2801f1b9fb0",
+    "fields": {
+      "updated": "2018-10-17 14:27:26.526088+00:00",
+      "material": "642bbbe6-d21b-11e8-a8d5-f2801f1b9fa0",
+      "camera": "Camera"
+    }
+  },
+  {
+    "model": "elsecmh.materialimplementation",
+    "pk": "642bbbe6-d21b-11e8-a8d5-f2801f1b9fc0",
+    "fields": {
+      "updated": "2018-10-17 14:27:26.526088+00:00",
+      "material_revision": "642bbbe6-d21b-11e8-a8d5-f2801f1b9fb0",
+      "name": "mat_nappa_191A1B"
+    }
+  },
+  {
+    "model": "elsecmh.materialimplementationasset",
+    "pk": "642bbbe6-d21b-11e8-a8d5-f2801f1b9fe1",
+    "fields": {
+      "updated": "2018-10-17 14:27:26.526088+00:00",
+      "material_implementation": "642bbbe6-d21b-11e8-a8d5-f2801f1b9fc0",
+      "asset_type": "PREVIEW_ASSET",
+      "extension": ".png",
+      "resource_type": "BLEND_RENDER",
+      "dam_uuid":"de60c96d-56c5-4d0d-9748-e82746a44ec2",
+      "filename":"test",
+      "size":256,
+      "brand_id":"1",
+      "url":"url.com",
+      "state":"uploaded",
+      "meta_info":""
+    }
+  },
+  {
+    "model": "elsecmh.materialimplementationasset",
+    "pk": "642bbbe6-d21b-11e8-a8d5-f2801f1b9fe2",
+    "fields": {
+      "updated": "2018-10-17 14:27:26.526088+00:00",
+      "material_implementation": "642bbbe6-d21b-11e8-a8d5-f2801f1b9fc0",
+      "asset_type": "JSON_ASSET",
+      "extension": ".json",
+      "resource_type": "BLEND4WB_JSON",
+      "dam_uuid":"de60c96d-56c5-4d0d-9748-e82746a44ec2",
+      "filename":"test",
+      "size":256,
+      "brand_id":"1",
+      "url":"url.com",
+      "state":"uploaded",
+      "meta_info":""
+    }
+  },
+  {
+    "model": "elsecmh.materialimplementationasset",
+    "pk": "642bbbe6-d21b-11e8-a8d5-f2801f1b9fe3",
+    "fields": {
+      "updated": "2018-10-17 14:27:26.526088+00:00",
+      "material_implementation": "642bbbe6-d21b-11e8-a8d5-f2801f1b9fc0",
+      "asset_type": "HTML_ASSET",
+      "extension": ".html",
+      "resource_type": "BLEND4WB_HTML",
+      "dam_uuid":"de60c96d-56c5-4d0d-9748-e82746a44ec2",
+      "filename":"test",
+      "size":256,
+      "brand_id":"1",
+      "url":"url.com",
+      "state":"uploaded",
+      "meta_info":""
+    }
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "model": "elsecmh.materialgroup",
+    "pk": "642bbbe6-d21b-11e8-a8d5-f2801f1b9fd0",
+    "fields": {
+      "name": "test_material_group",
+      "depth": 1,
+      "updated": "2018-10-17 14:27:26.526088+00:00",
+      "path": "0001",
+      "numchild": 0
+    }
+  },
+    {
+    "model": "elsecmh.brand",
+    "pk": "642bbbe6-d21b-11e8-a8d5-f2801f1b9fd0",
+    "fields": {
+      "brand_external_id": "642bbbe6-d21b-11e8-a8d5-f2801f1b9fd0",
+      "name": "test_brand",
+      "updated": "2018-10-17 14:27:26.526088+00:00"
+    }
+  }
+]
